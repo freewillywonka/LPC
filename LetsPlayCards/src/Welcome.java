@@ -16,4 +16,8 @@ public class Welcome {
 		System.out.println("|                                                |");
 		System.out.println("|------------------------------------------------|");
 	}
+	public void GoodBye()
+	{
+		System.out.println("BYE");
+	}
 }
