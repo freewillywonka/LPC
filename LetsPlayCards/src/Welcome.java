@@ -18,6 +18,6 @@ public class Welcome {
 	}
 	public void GoodBye()
 	{
-		System.out.println("BYE");
+		System.out.println("jklololololol0");
 	}
 }

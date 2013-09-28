@@ -4,5 +4,6 @@ public class LetsPlayCards {
 	{
 		Welcome w = new Welcome();
 		w.WelcomScreen();
+		w.GoodBye();
 	}
 }
