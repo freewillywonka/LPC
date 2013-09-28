@@ -1,0 +1,16 @@
+
+Had Same initial issue and finally sorted it by...
+
+Right click on project and go to Properties
+
+In Java Build Path under the Projects tab there is the associated Project, in my case org.eclipse.swt.win32.win32.x86
+
+Expand this down with the little arrow to the left to display the options. Here I found Native Library Locations. This wasn't set so I selected it and clicked Edit.
+
+In the Popup window that follows, I selected Workspace and then org.eclipse.swt.win32.win32.x86.
+
+Next time I ran the class, it work fine.
+
+I hope this helps someone!
+
+<http://www.eclipse.org/forums/index.php/t/229186/>
