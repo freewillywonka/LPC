@@ -18,6 +18,17 @@ public class Welcome {
 	}
 	public void GoodBye()
 	{
-		System.out.println("this is a test!");
-	}
+		System.out.println("--------- Thanks for playing LPC!!!    -----------");
+		System.out.println("|                                                |");
+		System.out.println("|   we hope you enjoyed playing                  |");
+		System.out.println("|                                                |");
+		System.out.println("|   special thanks to Travis Comstock            |");
+		System.out.println("|                                                |");
+		System.out.println("|   and William Hillhouse                        |");
+		System.out.println("|                                                |");
+		System.out.println("|   for creating this awesome game!              |");
+		System.out.println("|                                                |");
+		System.out.println("|   peace!!!                                     |");
+		System.out.println("|                                                |");
+		System.out.println("|------------------------------------------------|");	}
 }
