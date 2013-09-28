@@ -16,17 +16,4 @@ public class Welcome {
 		System.out.println("|                                                |");
 		System.out.println("|------------------------------------------------|");
 	}
-	public void GoodBye()
-	{
-		System.out.println("--------- Thanks for Playing -----------");
-		System.out.println("--------- special thanks to  -----------");
-		System.out.println("--------- Travis Comstock &  -----------");
-		System.out.println("--------- William Hillhouse  -----------");
-		System.out.println("--------- for making this game ---------");
-		System.out.println("--------- ...goodbye!!!    -------------");
-
-
-
-
-	}
 }
