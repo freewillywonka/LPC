@@ -5,6 +5,29 @@ public class Deck {
 	public int numOfCards;
 	public Card[] deck;
 	
+	
+	public String M0 = "Welcome to TheDeck Game!";	// Menu Zero (Title)
+	public String M1 = "(P)lay a game";				// Menu One
+	public String M2 = "(C)reate a game";			// Menu Two
+	public String M3 = "(E)xit";					// Menu Three
+	public String ML = "(L)ogin";					// Menu Login
+	public String[] MV = {M0, M1, M2, M3, ML}; 		// Menu Variables
+	
+	public Deck()
+	{
+		this.dispMenu(MV);
+	}
+	public void dispMenu(String[] s)
+	{
+		String VirtBar = "|";
+
+		for(int i=0; i<s.length; i++)
+		{
+			System.out.println(VirtBar + s[i] +  VirtBar);
+		}
+
+	}
+	
 	public void DeckMenu()
 	{
 		System.out.println("--------- Please select an option!  --------------");

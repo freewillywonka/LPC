@@ -2,6 +2,32 @@ import java.util.Scanner;
 
 
 public class Welcome {
+	public String M0 = "Welcome to TheDeck Game!";	// Menu Zero (Title)
+	private String M1 = "(P)lay a game";				// Menu One
+	private String M2 = "(C)reate a game";			// Menu Two
+	private String M3 = "(E)xit";					// Menu Three
+	private String ML = "(L)ogin";					// Menu Login
+	public String[] MV = {M0, M1, M2, M3, ML}; 		// Menu Variables
+	
+	public Welcome()
+	{
+		this.dispMenu(MV);
+	}
+	public void dispMenu(String[] s)
+	{
+		String VirtBar = "|";
+		
+		for(int i=0; i<s.length; i++)
+		{
+			for(; MV[i].length()<MV[0].length();) // loop through all menu items
+			{
+				MV[i] += " "; // Append spaces to align end characters in menu.
+			}
+			System.out.println(VirtBar + s[i] +  VirtBar);
+		}
+
+	}
+	
 	public void WelcomScreen()
 	{
 		System.out.println("--------- Welcome to Let's Play Cards! -----------");
